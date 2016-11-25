@@ -1,0 +1,182 @@
+.root-child {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.hyper-link {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+.center-alig {
+  text-align: center;
+}
+
+.grunt-bor {
+  border: 1px solid black;
+}
+
+.nav-head {
+  font-weight: 700;
+  color: #bfbfbf;
+  text-align: center;
+}
+
+.main-fig {
+  margin: 0 0 0 0;
+}
+
+.main-img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border-bottom: thick solid #7d97ad;
+}
+
+.col {
+  width: 100%;
+}
+
+.fot-head {
+  text-align: center;
+}
+
+.font-sym {
+  color: #a6fdf5;
+  box-shadow: 15px 15px 10px #44c3b8;
+  font-size: 500%;
+  border-radius: 30px;
+}
+
+.font-sym2 {
+  font-size: 300%;
+  display: inline;
+}
+
+.font-sym3 {
+  font-size: 200%;
+  display: inline;
+}
+
+.font-sym4 {
+  display: inline;
+}
+
+.text {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+}
+
+.text-desig {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.footer-row {
+  width: 100%;
+  height: 100%;
+}
+
+.footer-col {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.fot-img {
+  width: 70%;
+  height: 90%;
+}
+
+@media screen and (min-width: 600px) and (max-width: 950px) {
+  .text {
+    font-size: 300%;
+  }
+
+  .text-desig {
+    font-size: 150%;
+  }
+
+  .nav-head {
+    font-size: 200%;
+  }
+
+  .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer-col {
+    width: 50%;
+    height: 30%;
+  }
+
+  .main-img {
+    height: 50vw;
+  }
+
+  .logo {
+    margin-left: 35%;
+  };
+}
+
+@media screen and (min-width: 951px) {
+  .col {
+    width: 50%;
+  }
+
+  .text ,
+  .text-desig {
+              text-align: right;
+  }
+
+  .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    height: 20vw;
+  }
+
+  .footer-col {
+    width: calc((100% - 50px)/3);
+    height: 100%;
+    margin: initial;
+    text-align: initial;
+  }
+
+  .main-img {
+    height: 50vw;
+  }
+
+  .fot-img {
+    width: 100%;
+    height: 80%;
+  }
+
+  .footer-margin {
+    margin-right: 25px;
+  }
+
+  .fot-head,
+  .nav-head {
+            font-size: 200%;
+  }
+
+  .nav-head {
+    text-align: left;
+    margin-left: 15px;
+  }
+
+  .logo {
+    margin: 0;
+  };
+}
+
